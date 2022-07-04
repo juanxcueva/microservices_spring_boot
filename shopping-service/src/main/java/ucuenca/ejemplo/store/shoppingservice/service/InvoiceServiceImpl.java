@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import lombok.extern.slf4j.Slf4j;
+import ucuenca.ejemplo.store.shoppingservice.client.CustomerClient;
+import ucuenca.ejemplo.store.shoppingservice.client.ProductClient;
 import ucuenca.ejemplo.store.shoppingservice.entity.Invoice;
 import ucuenca.ejemplo.store.shoppingservice.entity.InvoiceItem;
 import ucuenca.ejemplo.store.shoppingservice.model.Customer;
