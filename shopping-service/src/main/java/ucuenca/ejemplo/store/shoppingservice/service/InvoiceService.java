@@ -14,3 +14,4 @@ public interface InvoiceService {
 
     public Invoice getInvoice(Long id);
 }
+

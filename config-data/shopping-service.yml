@@ -32,29 +32,29 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8099/eureka/
 
-resilience4j.circuitbreaker:
-    instances:
-        producCB:
-            registerHealthIndicator: true
-            slidingWindowSize: 10
-            permittedNumberOfCallsInHalfOpenState: 3
-            slidingWindowType: TIME_BASED
-            minimumNumberOfCalls: 4
-            waitDurationInOpenState: 5s
-            failureRateThreshold: 50
-            eventConsumerBufferSize: 10
-        customerCB:
-            registerHealthIndicator: true
-            slidingWindowSize: 10
-            permittedNumberOfCallsInHalfOpenState: 3
-            slidingWindowType: TIME_BASED
-            minimumNumberOfCalls: 4
-            waitDurationInOpenState: 5s
-            failureRateThreshold: 50
-            eventConsumerBufferSize: 10
+# resilience4j.circuitbreaker:
+#     instances:
+#         producCB:
+#             registerHealthIndicator: true
+#             slidingWindowSize: 10
+#             permittedNumberOfCallsInHalfOpenState: 3
+#             slidingWindowType: TIME_BASED
+#             minimumNumberOfCalls: 4
+#             waitDurationInOpenState: 5s
+#             failureRateThreshold: 50
+#             eventConsumerBufferSize: 10
+#         customerCB:
+#             registerHealthIndicator: true
+#             slidingWindowSize: 10
+#             permittedNumberOfCallsInHalfOpenState: 3
+#             slidingWindowType: TIME_BASED
+#             minimumNumberOfCalls: 4
+#             waitDurationInOpenState: 5s
+#             failureRateThreshold: 50
+#             eventConsumerBufferSize: 10
 
-management:
-  endpoints:
-    web:
-      exposure:
-        incluse: "*"
+# management:
+#   endpoints:
+#     web:
+#       exposure:
+#         incluse: "*"
