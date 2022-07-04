@@ -47,7 +47,7 @@ public class Invoice {
 
     private String state;
 
-    @Transient //para que no cuente como columna
+    @Transient //para que no se guarde en la db
     private Customer customer;
 
     public Invoice(){
