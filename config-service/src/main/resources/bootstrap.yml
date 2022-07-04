@@ -6,10 +6,10 @@ spring:
         config:
             server:
                 git:
-                    uri: https://github.com/ChristianBuele/microservices.git
+                    uri: https://github.com/juanxcueva/microservices_spring_boot.git
                     searchPaths: config-data
-                    username: ChristianBuele
-                    password: Buele30.03.1997
+                    username: juanxcueva
+                    password: Jpandad390
                     default-label: "main"
     security:
         user:
